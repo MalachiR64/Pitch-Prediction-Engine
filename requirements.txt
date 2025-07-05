@@ -1,0 +1,10 @@
+requests
+statsapi
+kafka-python
+streamlit 
+pandas
+numpy
+matplotlib
+scikit-learn
+xgboost
+joblib
