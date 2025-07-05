@@ -7,7 +7,7 @@ This project is a real-time baseball pitch prediction system powered by `machine
 - Model: `XGBoost` Classifier predicting pitch types (Fastball, Slider, Curve, etc.)
 - Streaming: `Kafka` based producer consumer loop
 - Interface: Interactive `Streamlit` dashboard for selecting games, browsing pitches, and viewing predictions
-<img src="pitch-predictor.png" alt="System Architecture" style="max-height: 100px; display: block; margin: 0 auto;" />
+
 
 ## Table of Contents
 
@@ -17,6 +17,7 @@ This project is a real-time baseball pitch prediction system powered by `machine
 - [ML Model Overview](#ml-model-overview)
 - [Installation & Setup](#installation--setup)
 - [Training the Model](#training-the-model)
+- [System Architecture](#system-architecture)
 - [Future Improvements](#future-improvements)
 - [Contributors](#contributors)
 
@@ -154,8 +155,9 @@ jupyter notebook train-model.ipynb
 It includes feature engineering, XGBoost training, model evaluation, and joblib export.
 
 
+## System Architecture
+<img src="pitch-predictor.png" alt="System Architecture" style="max-height: 100px; display: block; margin: 0 auto;" />
 
----
 
 ## Future Improvements
 
@@ -163,7 +165,8 @@ It includes feature engineering, XGBoost training, model evaluation, and joblib 
 - Add pitcher/batter history features
 - Deploy to cloud and enable remote Kafka setup
 
----
+
+
 
 ## Contributors
 
