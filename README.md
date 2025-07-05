@@ -1,14 +1,14 @@
 # ⚾ Real Time MLB Pitch Prediction Engine
 ## Overview
 This project is a real-time baseball pitch prediction system powered by `machine learning` and `Apache Kafka`. It ingests pitch-by-pitch data from historical or live MLB games, streams it through a Kafka pipeline, applies a trained XGBoost model to predict the next pitch type, and visualizes everything in a Streamlit dashboard.
-![Dashboard](dashboard.png/)
 
+![System Architecture](pitch-predictor.png)
 - Data Source: MLB `StatsAPI`
 - Model: `XGBoost` Classifier predicting pitch types (Fastball, Slider, Curve, etc.)
 - Streaming: `Kafka` based producer consumer loop
 - Interface: Interactive `Streamlit` dashboard for selecting games, browsing pitches, and viewing predictions
 
-
+![Dashboard](dashboard.png/)
 ## Table of Contents
 
 - [Features](#features)
@@ -17,7 +17,6 @@ This project is a real-time baseball pitch prediction system powered by `machine
 - [ML Model Overview](#ml-model-overview)
 - [Installation & Setup](#installation--setup)
 - [Training the Model](#training-the-model)
-- [System Architecture](#system-architecture)
 - [Future Improvements](#future-improvements)
 - [Contributors](#contributors)
 
@@ -155,8 +154,6 @@ jupyter notebook train-model.ipynb
 It includes feature engineering, XGBoost training, model evaluation, and joblib export.
 
 
-## System Architecture
-<img src="pitch-predictor.png" alt="System Architecture" style="max-height: 100px; display: block; margin: 0 auto;" />
 
 
 ## Future Improvements
