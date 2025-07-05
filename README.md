@@ -7,7 +7,8 @@ This project is a real-time baseball pitch prediction system powered by `machine
 - Model: `XGBoost` Classifier predicting pitch types (Fastball, Slider, Curve, etc.)
 - Streaming: `Kafka` based producer consumer loop
 - Interface: Interactive `Streamlit` dashboard for selecting games, browsing pitches, and viewing predictions
-<img src="pitch-predictor.png" alt="System Architecture" style="max-height: 300px; display: block; margin: 0 auto;" />
+<img src="pitch-predictor.png" alt="System Architecture" style="max-height: 100px; display: block; margin: 0 auto;" />
+
 ## Table of Contents
 
 - [Features](#features)
